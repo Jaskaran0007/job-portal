@@ -4,11 +4,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         UserDAO userDAO = new UserDAO();
-        
+
         try {
             List<User> users = userDAO.getAllUsers();
-            for (User user : users) {
-                System.out.println("User ID: " + user.getUserId() + ", Username: " + user.getUsername() + ", Email: " + user.getEmail() + ", Role: " + user.getRole());
+            for (User  user : users) {
+                System.out.println("User  ID: " + user.getUser Id() + ", Username: " + user.getUsername() + ", Email: " + user.getEmail() + ", Role: " + user.getRole());
             }
 
             // Test authentication

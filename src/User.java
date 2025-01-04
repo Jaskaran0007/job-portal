@@ -5,7 +5,6 @@ public class User {
     private String email;
     private String role;
 
-    // Constructor with role
     public User(int userId, String username, String email, String role) {
         this.userId = userId;
         this.username = username;
@@ -13,12 +12,11 @@ public class User {
         this.role = role;
     }
 
-    // Getters and Setters
-    public int getUserId() {
+    public int getUser Id() {  // Corrected method name
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUser Id(int userId) {  // Corrected method name
         this.userId = userId;
     }
 
